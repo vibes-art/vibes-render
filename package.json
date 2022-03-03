@@ -1,0 +1,16 @@
+{
+  "name": "vibes-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "2.8.0",
+    "solc": "^0.8.9",
+    "web3": "^1.6.0"
+  }
+}

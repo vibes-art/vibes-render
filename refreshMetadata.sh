@@ -1,0 +1,1 @@
+for ((i=792;i<=798;i++)); do curl -v "https://api.opensea.io/asset/0x6c7C97CaFf156473F6C9836522AE6e1d6448Abe7/$i/?force_update=true"; done
