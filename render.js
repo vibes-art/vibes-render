@@ -153,7 +153,7 @@ function startRemoteRender (tokenId) {
 function requestRemoteRender (tokenId) {
   var data = `{ "tokenId": ${tokenId}, "renderSize": ${RENDER_SIZE}, "useDownsample": ${USE_DOWNSAMPLE} }`;
   var options = {
-    hostname: 'jerjr8xryc.execute-api.us-east-2.amazonaws.com',
+    hostname: '< insert your AWS host >',
     port: 443,
     path: '/test/render',
     method: 'POST',
